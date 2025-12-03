@@ -23,4 +23,4 @@ print(f"Vrijeme izvođenja {t2 - t1:.2f} sekunde")
 
 # Nakon što se dodalo "await asyncio.sleep(2)" umjesto "await asyncio.sleep(param)" smo dobili mogućnost da
 # "(fetch_data(2))" traje dovoljno dugo da se prikaže ispis "Dovršio sam s 2" jer je event loop tada još aktivan
-# Možemo vidjeti da makar nije awaitan se može i dalje izvršiti ako mu se omogući dovoljno vremena
+# Možemo vidjeti da makar nije await-an se može i dalje izvršiti ako mu se omogući dovoljno vremena
